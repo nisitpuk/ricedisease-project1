@@ -42,13 +42,6 @@ def get_output():
 
 if __name__ =='__main__':
 	#app.debug = True
-	#app.run(debug=True)
-    #app.run(host="0.0.0.0")
-
-	def index():
-		ip_address = flask.request.remote_addr
-		return "Requester IP: " + ip_address
-
-
-	app.run(host="0.0.0.0", port=8080)
+	app.run(debug=True)
+   
 
